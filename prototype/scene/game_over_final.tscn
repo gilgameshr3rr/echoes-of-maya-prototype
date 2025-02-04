@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://prototype/script/game_over_final.gd" id="1_taldk"]
 [ext_resource type="Texture2D" uid="uid://bgkw5vbqbor54" path="res://prototype/Assets/decorations/black_background.png" id="1_yn734"]
 [ext_resource type="VideoStream" path="res://prototype/video/video-02.ogv" id="3_35ege"]
-[ext_resource type="Script" path="res://prototype/scene/video_stream_player.gd" id="4_w2ht0"]
+[ext_resource type="Script" path="res://prototype/script/video_stream_player.gd" id="4_w2ht0"]
 
 [node name="game_over_final" type="Control"]
 layout_mode = 3
@@ -17,8 +17,9 @@ texture = ExtResource("1_yn734")
 
 [node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 2560.0
+offset_bottom = 1440.0
+scale = Vector2(0.46, 0.46)
 stream = ExtResource("3_35ege")
 script = ExtResource("4_w2ht0")
 
