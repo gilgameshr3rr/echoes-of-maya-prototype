@@ -5,9 +5,17 @@ Embarque na jornada de Maya, uma jovem que, após um evento traumático, perde s
 
 # Vamos começar!
 
------> Clique [AQUI](https://echoes-of-maya-prototype.netlify.app/) para jogar o protótipo <-----.
+-----> CLIQUE [AQUI](https://echoes-of-maya-prototype.netlify.app/) para jogar o protótipo <-----
 
 ![Image](screenshot.jpg)
+
+-----> GAME PITCH (https://www.youtube.com/watch?v=7A-OBWMIoZI) para acessar o game pitch <-----
+
+-----> PARTE 1 DO PROTÓTIPO - INTRO (https://www.youtube.com/watch?v=CunldXNYC8A) para acessar o game pitch <-----
+
+-----> PARTE 3 DO PROTÓTIPO - FINAL (https://www.youtube.com/watch?v=MHOco-ECQrg) para acessar o game pitch <-----
+
+-----> GAMEPLAY PROTÓTIPO (https://www.youtube.com/watch?v=14lFjuMEuLA) para acessar o game pitch <-----
 
 ## Como jogar o protótipo
 
