@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=3 uid="uid://d5fw2p6yif4x"]
+
+[ext_resource type="Texture2D" uid="uid://bc3lwcne6v6vk" path="res://prototype/Assets/decorations/rock_2.png" id="2_8eanu"]
+
+[sub_resource type="GDScript" id="GDScript_i2oba"]
+script/source = "extends Area2D
+
+func _on_body_entered(body):
+	if body.name == \"Player\":
+		call_deferred(\"reload_scene\")
+
+func reload_scene():
+	get_tree().reload_current_scene()
+"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_utagd"]
+size = Vector2(101, 44)
+
+[node name="obstacle" type="Area2D"]
+collision_layer = 2
+script = SubResource("GDScript_i2oba")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+light_mask = 2
+position = Vector2(11.5, 23)
+shape = SubResource("RectangleShape2D_utagd")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(5, 5)
+
+[node name="Rock2" type="Sprite2D" parent="."]
+position = Vector2(9, 19)
+scale = Vector2(4.00926, 4.16667)
+texture = ExtResource("2_8eanu")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

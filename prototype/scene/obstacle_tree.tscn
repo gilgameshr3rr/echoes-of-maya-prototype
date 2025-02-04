@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://begfvfetv5yp0"]
+
+[ext_resource type="Script" path="res://prototype/script/obstacle_tree.gd" id="1_4yai5"]
+[ext_resource type="Texture2D" uid="uid://ydbx504vilgc" path="res://prototype/Assets/decorations/output-onlinepngtools.png" id="2_ip2lk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5mqg5"]
+size = Vector2(394, 176)
+
+[node name="obstacle_tree" type="Area2D"]
+light_mask = 2
+collision_layer = 2
+script = ExtResource("1_4yai5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+light_mask = 2
+position = Vector2(898, -489)
+shape = SubResource("RectangleShape2D_5mqg5")
+
+[node name="Sprite2D" type="Sprite2D" parent="CollisionShape2D"]
+position = Vector2(17, -60)
+scale = Vector2(5.51064, 4.5625)
+texture = ExtResource("2_ip2lk")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
