@@ -5,22 +5,25 @@ Embarque na jornada de Maya, uma jovem que, após um evento traumático, perde s
 
 # Vamos começar!
 
------> CLIQUE [AQUI](https://echoes-of-maya-prototype.netlify.app/) para jogar o protótipo <-----
+Antes de jogar, por favor, leia toda a descrição abaixo:
+Caso o audio do jogo não inicie automaticamente, clique na página para ativar.
+
+--> CLIQUE [AQUI](https://echoes-of-maya-prototype.netlify.app/) para jogar o protótipo <--
 
 ![Image](screenshot.jpg)
 
------> GAME PITCH (https://www.youtube.com/watch?v=7A-OBWMIoZI) para acessar o game pitch <-----
+--> GAME PITCH (https://www.youtube.com/watch?v=7A-OBWMIoZI) para acessar o game pitch <--
 
------> PARTE 1 DO PROTÓTIPO - INTRO (https://www.youtube.com/watch?v=CunldXNYC8A) para acessar o game pitch <-----
+--> PARTE 1 DO PROTÓTIPO - INTRO (https://www.youtube.com/watch?v=CunldXNYC8A) para acessar o game pitch <--
 
------> PARTE 3 DO PROTÓTIPO - FINAL (https://www.youtube.com/watch?v=MHOco-ECQrg) para acessar o game pitch <-----
+--> PARTE 3 DO PROTÓTIPO - FINAL (https://www.youtube.com/watch?v=MHOco-ECQrg) para acessar o game pitch <--
 
------> GAMEPLAY PROTÓTIPO (https://www.youtube.com/watch?v=14lFjuMEuLA) para acessar o game pitch <-----
+--> GAMEPLAY PROTÓTIPO (https://www.youtube.com/watch?v=14lFjuMEuLA) para acessar o game pitch <--
 
 ## Como jogar o protótipo
 
-Use as setas do teclado (→ ←) para mover Maya.
-Use a seta do teclado (↑) para pular e (↑↑) para pulo duplo.
+Use as setas do teclado (← →) para mover Maya.
+Use a seta do teclado (space) para pular e (space 2x) para pulo duplo.
 
 Cuidado com os obstáculos! 
 
@@ -54,7 +57,8 @@ Echoes of Maya é um jogo desenvolvido com:
 
 - Godot, GDScript
 - Assets https://itch.io/
-
+- Visual Studio Code
+ 
 
 ## Melhorias futuras
 
